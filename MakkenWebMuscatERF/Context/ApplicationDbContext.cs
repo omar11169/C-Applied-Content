@@ -20,5 +20,6 @@ namespace MakkenWebMuscatERF.Context
 
               }
         public DbSet<Employee> employees { get; set; }
-        }
+        public DbSet<Department> Departments { get; set; }
+    }
 }
